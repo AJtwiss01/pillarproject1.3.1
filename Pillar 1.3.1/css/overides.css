@@ -1,0 +1,122 @@
+/*! Button Overides */
+.btn--inverse {
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.btn--inverse .btn__text {
+  color: #232323 !important;
+}
+.btn--inverse:hover {
+  opacity: .9;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.btn--inverse:hover .btn__text {
+  color: #161616 !important;
+}
+.box-shadow-dark {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5) !important;
+}
+.logo-svg {
+  display: inline-block !important;
+  width: 125px !important;
+  max-height: 100% !important;
+}
+.nav-module .menu > li a {
+  margin-top: 2px;
+}
+.background-image-holder.img-left {
+  background-position: 0% 50% !important;
+}
+@-webkit-keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+@keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+.scroll-btn {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.scroll-btn > * {
+  display: inline-block;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #7f8c8d;
+  color: #ffffff;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+  color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+  position: relative;
+  display: block;
+  width: 28px;
+  height: 48px;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 50em;
+  opacity: .6;
+}
+.scroll-btn .mouse > * {
+  position: absolute;
+  display: block;
+  top: 29%;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin: -4px 0 0 -3px;
+  background: white;
+  border-radius: 50%;
+  -webkit-animation: ani-mouse 3s ease-in-out infinite;
+  animation: ani-mouse 3s ease-in-out infinite;
+}
+/*# sourceMappingURL=overides.css.map */
