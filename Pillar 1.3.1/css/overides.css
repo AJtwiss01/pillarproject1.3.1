@@ -2,7 +2,6 @@
 .btn--inverse {
   background-color: #fff;
   border-color: #fff;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .btn--inverse .btn__text {
@@ -10,8 +9,7 @@
 }
 .btn--inverse:hover {
   opacity: .9;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 .btn--inverse:hover .btn__text {
   color: #161616 !important;
@@ -31,6 +29,24 @@
   background-position: 0% 50% !important;
 }
 @-webkit-keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+@-moz-keyframes ani-mouse {
   0% {
     opacity: 1;
     top: 29%;
@@ -101,6 +117,8 @@
   width: 28px;
   height: 48px;
   margin: 0 auto 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 2px solid white;
   border-radius: 50em;
@@ -117,6 +135,15 @@
   background: white;
   border-radius: 50%;
   -webkit-animation: ani-mouse 3s ease-in-out infinite;
+  -moz-animation: ani-mouse 3s ease-in-out infinite;
   animation: ani-mouse 3s ease-in-out infinite;
 }
-/*# sourceMappingURL=overides.css.map */
+.btn--signup,
+.btn--login {
+  color: #fff;
+  line-height: 16px;
+}
+.btn--login {
+  border: none;
+  background: none;
+}
