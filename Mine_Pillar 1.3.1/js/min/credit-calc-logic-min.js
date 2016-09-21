@@ -1,0 +1,1 @@
+$(function(){function o(o,n,c){var l=3*(n-1)+5,r;return r=o>19||c>19?5:4.5,console.log(l),l}var n=o(1,3,1);console.log(n)});
