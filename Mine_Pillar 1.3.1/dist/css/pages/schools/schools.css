@@ -8303,3 +8303,119 @@ section[class*='elements-'] hr + .row {
 .op-9 {
   opacity: .9 !important;
 }
+.bg--medium {
+  background-color: #ededed;
+}
+.bg--transparent-white-5 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.bg--transparent-white-6 {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.bg--transparent-white-8 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.bg--transparent-black-5 {
+  background-color: rgba(35, 35, 35, 0.5);
+}
+.bg--transparent-black-6 {
+  background-color: rgba(35, 35, 35, 0.6);
+}
+.bg--transparent-black-8 {
+  background-color: rgba(35, 35, 35, 0.8);
+}
+.btn--inverse {
+  background-color: #fff;
+  border-color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.btn--inverse .btn__text {
+  color: #232323 !important;
+}
+.btn--inverse:hover {
+  opacity: .8;
+  border-color: #fff;
+}
+.btn--inverse:hover .btn__text {
+  color: #161616 !important;
+}
+.btn-text-lg {
+  font-size: .75em !important;
+  line-height: 2.5em;
+  letter-spacing: 1px;
+}
+.btn--inverse-secondary {
+  background-color: #fff;
+  border-color: #fff;
+  transition: all 0.2s ease-in-out;
+  opacity: .7;
+}
+.btn--inverse-secondary .btn__text {
+  color: #232323 !important;
+}
+.btn--inverse-secondary:hover {
+  opacity: .5;
+  border-color: #fff;
+}
+.btn--inverse-secondary:hover .btn__text {
+  color: #161616 !important;
+}
+.scale-on-hover {
+  transition: all 0.2s ease-in-out;
+}
+.scale-on-hover:hover {
+  transform: scale(1.05);
+}
+.btn--ghost {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+  border-width: 1px;
+  transition: all 0.2s ease-in-out;
+}
+.btn--ghost .btn__text {
+  color: #fff;
+}
+.btn--ghost:hover {
+  opacity: .9;
+  border-color: transparent !important;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.btn--ghost:hover .btn__text {
+  color: #fff !important;
+}
+.btn--dark {
+  background-color: rgba(35, 35, 35, 0.7);
+  border-color: transparent;
+  border-width: 1px;
+  transition: all 0.2s ease-in-out;
+}
+.btn--dark .btn__text {
+  color: #fff;
+}
+.btn--dark:hover {
+  border-color: transparent !important;
+  border-width: 1px;
+  background-color: rgba(35, 35, 35, 0.5);
+}
+.btn--dark:hover .btn__text {
+  color: #fff !important;
+}
+.btn--light {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: transparent !important;
+  border-width: 1px;
+  transition: all 0.2s ease-in-out;
+}
+.btn--light .btn__text {
+  color: #232323 !important;
+}
+.btn--light:hover {
+  opacity: 1;
+  border-color: transparent !important;
+  border-width: 1px;
+  background-color: #ffffff;
+}
+.btn--light:hover .btn__text {
+  color: #232323 !important;
+}

@@ -54,7 +54,7 @@ module.exports = function(grunt) {
                     }
                 }]
             },
-                distrenameHome: {
+            distrenameHome: {
                 files: [{
                     expand: true,
                     dot: true,
@@ -83,7 +83,37 @@ module.exports = function(grunt) {
                     ]
                 }
             }
+        },
+        uncss: {
+            dist: {
+                options: {
+                    ignore: ['.twitter-feed .user',
+                        '.twitter-feed-2 li .tweet',
+                        '.feature p.tweet a ',
+                        '.twitter-feed .interact',
+                        '.slides',
+                        'owl-item cloned',
+                        'owl-item cloned active',
+                        '.owl-theme .owl-controls',
+                        '.owl-theme .owl-controls .owl-nav',
+                        '.owl-theme .owl-controls .owl-dots',
+                        '.owl-dot.active', '.owl-dot'
+                    ]
+                },
+                files: {
+                    'dist/css/tidy.css': ['dist/index.html']
+                }
+            }
+        },
+        purifycss: {
+            options: {},
+            target: {
+                src: ['dist/index.html', 'test/js/*.js'],
+                css: ['dist/css/bootstrap.css','dist/css/overides.css', 'dist/css/theme.css'],
+                dest: 'dist/purestyles.css'
+            }
         }
+
         // jshint: {
         //     options: {
         //         jshintrc: 'js/.jshintrc'
@@ -220,7 +250,7 @@ module.exports = function(grunt) {
         //     }
         // },
 
-        
+
 
         // csscomb: {
         //     options: {
@@ -291,7 +321,8 @@ module.exports = function(grunt) {
         //     }
         // }
     });
-
+    grunt.loadNpmTasks('grunt-uncss');
+    grunt.loadNpmTasks('grunt-purifycss');
     // These plugins provide necessary tasks.
     require('load-grunt-tasks')(grunt, { scope: 'devDependencies' });
     require('time-grunt')(grunt);
@@ -319,7 +350,7 @@ module.exports = function(grunt) {
 
     // Run server, run...
     // grunt.registerTask('server', ['less', 'autoprefixer', 'connect:livereload', 'watch']);
-    
+
     //pj build
-    grunt.registerTask('build', ['copy', 'clean']);
+    grunt.registerTask('build', ['copy', 'clean', 'uncss','purifycss']);
 };

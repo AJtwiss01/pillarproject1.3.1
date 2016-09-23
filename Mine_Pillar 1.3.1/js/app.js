@@ -1,6 +1,8 @@
 //jQuery scripts
 // for in and out of school svg tooltip
+ 
 $(document).ready(function() {
+      'use strict';
     $('#hours-graph').on('mouseenter', '.dark-background, .blue-gradiant', function() {
         // console.log(this);
         var toShow = $(this).attr('id'); // get the hovered section's id
@@ -39,24 +41,32 @@ $(document).ready(function() {
 });
 // Vanilla js not jquery 
 // for wordpress feed 
-var wp_title = document.getElementById('wps-feed');
-var wp_link = document.getElementById('wps-link');
 
-if (wp_title != 'undefined' && wp_title != null) {
+function showFeed(data) {
+     'use strict';
+     var wpLink;
+     var wpTitle;
+     var wpDate;
+     var wpMonthSplit;
+     var wpCollection;
+     var wpMonth;
+     var wpMonthCollection;
+     var wpOutput;
+     var wpMonthJoin;
 
-    function showFeed(data) {
-        'use strict';
+    var wp_title = document.getElementById('wps-feed');
+    if (wp_title !== 'undefined' && wp_title !== null) {
         // console.log(data);
         if (data.status === 'ok') {
             for (var i = 0; i < data.items.length; ++i) {
-                var wpLink = data.items[0].link;
-                var wpTitle = data.items[0].title.toString().substr(0, 186);
-                var wpDate = data.items[0].pubDate.toString().substr(0, 17);
-                var wpMonthSplit = wpDate.split(" ");
+                 wpLink = data.items[0].link;
+                 wpTitle = data.items[0].title.toString().substr(0, 186);
+                 wpDate = data.items[0].pubDate.toString().substr(0, 17);
+                 wpMonthSplit = wpDate.split(" ");
             }
             for (var x = 0; x < wpMonthSplit.length; ++x) {
-                var wpMonthCollection = wpMonthSplit[2];
-                var wpMonth = "";
+                wpMonthCollection = wpMonthSplit[2];
+                wpMonth = "";
                 switch (wpMonthCollection) {
 
                     case 'Jan':
@@ -98,17 +108,17 @@ if (wp_title != 'undefined' && wp_title != null) {
 
                 }
                 // console.log(wpMonth);
-                var wpCollection = [wpMonthSplit[0], wpMonthSplit[1], wpMonth, wpMonthSplit[3]];
-                var wpMonthJoin = wpCollection.join(" ");
+                wpCollection = [wpMonthSplit[0], wpMonthSplit[1], wpMonth, wpMonthSplit[3]];
+                wpMonthJoin = wpCollection.join(" ");
                 // console.log(wpMonthJoin);
             }
-            var wpOutput = '<a href="' + wpLink + '" class="webinar-link"><h5 class="webinar-title">' + wpTitle + '</h5> <p class="small"><i class="fa fa-calendar-o"></i><span class="date">' + wpMonthJoin + '</span></p></a>';
-            var wpLinktoblog = '<a class="link-underlined anim-icon" href="' + wpLink + '"><span class="link-text">Visit Our Blog <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>';
+            wpOutput = '<a href="' + wpLink + '" class="webinar-link"><h5 class="webinar-title">' + wpTitle + '</h5> <p class="small"><i class="fa fa-calendar-o"></i><span class="date">' + wpMonthJoin + '</span></p></a>';
             wp_title.innerHTML = wpOutput;
-            wp_link.innerHTML = wpLinktoblog;
+
         }
     }
 }
+
 
 //fontawsome check
 function css(element, property) {
@@ -124,13 +134,13 @@ window.onload = function() {
 
     if ((css(span, 'font-family')) !== 'FontAwesome') {
         // add a local fallback
-        console.log('not loaded');
+        // console.log('not loaded');
         var l = document.createElement("link");
         l.rel = "stylesheet";
         l.href = "bower_components/font-awesome/font-awesome.min.css";
         $("head").append(l);
     } else {
-        console.log('loaded')
+        // console.log('loaded')
 
     }
     document.body.removeChild(span);
