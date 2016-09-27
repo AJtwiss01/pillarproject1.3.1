@@ -3159,6 +3159,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pj-assets\/apple-desk-laptop-working.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82322,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/apple-desk-laptop-working.jpg",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/apple-desk-laptop-working.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/apple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31487,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/apple.jpg",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/apple.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 479347,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/bg.jpg",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pj-assets\/brothers-457237.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3166,6 +3199,17 @@
 		"initialSize": 7.64138e+06,
 		"inputAbbreviatedPath": "\/img\/pj-assets\/brothers-457237.jpg",
 		"outputAbbreviatedPath": "\/img\/pj-assets\/brothers-457237.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/cost.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42618,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/cost.jpg",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/cost.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3199,6 +3243,17 @@
 		"initialSize": 527708,
 		"inputAbbreviatedPath": "\/img\/pj-assets\/feet.jpg",
 		"outputAbbreviatedPath": "\/img\/pj-assets\/feet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/iStock_22458192_XLARGE.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03032e+07,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/iStock_22458192_XLARGE.jpg",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/iStock_22458192_XLARGE.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3346,6 +3401,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pj-assets\/sddefault.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32325,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/sddefault.jpg",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/sddefault.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/shutterstock_364445408.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.07657e+07,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/shutterstock_364445408.jpg",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/shutterstock_364445408.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/side-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3236,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/side-image.jpg",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/side-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pj-assets\/testimonial-Alisha-Eddleman-left.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3364,6 +3452,72 @@
 		"initialSize": 113694,
 		"inputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Alisha-Eddleman.png",
 		"outputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Alisha-Eddleman.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/testimonial-Chase-Fishback.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12609,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Chase-Fishback.jpg",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Chase-Fishback.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/testimonial-Chase-Fishback.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55578,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Chase-Fishback.png",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Chase-Fishback.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/testimonial-Dan-Voelpel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66255,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Dan-Voelpel.png",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Dan-Voelpel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/testimonial-Dat-Nguyen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50262,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Dat-Nguyen.png",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Dat-Nguyen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/testimonial-Jim-Cummings.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58245,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Jim-Cummings.png",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Jim-Cummings.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pj-assets\/testimonial-Raul-Maldonado.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155452,
+		"inputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Raul-Maldonado.png",
+		"outputAbbreviatedPath": "\/img\/pj-assets\/testimonial-Raul-Maldonado.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5703,7 +5857,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/less\/pj-components\/pj-fontwieght.less": {
+	"\/less\/pj-components\/pj-font-wieghts.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -5711,8 +5865,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/less\/pj-components\/pj-fontwieght.less",
-		"outputAbbreviatedPath": "\/less\/css\/pj-fontwieght.css",
+		"inputAbbreviatedPath": "\/less\/pj-components\/pj-font-wieghts.less",
+		"outputAbbreviatedPath": "\/less\/css\/pj-font-wieghts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -5833,6 +5987,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/less\/pj-components\/pj-variables.less",
 		"outputAbbreviatedPath": "\/less\/css\/pj-variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/less\/pj-components\/pj-video.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/pj-components\/pj-video.less",
+		"outputAbbreviatedPath": "\/less\/css\/pj-video.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -7722,6 +7896,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pj-home-v2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pj-home-v2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/pj-home.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7758,11 +7941,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pj-program-providers.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pj-program-providers.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/pj-schools.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/pj-schools.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pj-testlayouts.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pj-testlayouts.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -7907,15 +8108,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/portfolio-video-wide.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/program-providers.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/program-providers.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

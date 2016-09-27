@@ -1,8 +1,9 @@
 //jQuery scripts
 // for in and out of school svg tooltip
- 
+
+
 $(document).ready(function() {
-      'use strict';
+    'use strict';
     $('#hours-graph').on('mouseenter', '.dark-background, .blue-gradiant', function() {
         // console.log(this);
         var toShow = $(this).attr('id'); // get the hovered section's id
@@ -43,26 +44,26 @@ $(document).ready(function() {
 // for wordpress feed 
 
 function showFeed(data) {
-     'use strict';
-     var wpLink;
-     var wpTitle;
-     var wpDate;
-     var wpMonthSplit;
-     var wpCollection;
-     var wpMonth;
-     var wpMonthCollection;
-     var wpOutput;
-     var wpMonthJoin;
+    'use strict';
+    var wpLink;
+    var wpTitle;
+    var wpDate;
+    var wpMonthSplit;
+    var wpCollection;
+    var wpMonth;
+    var wpMonthCollection;
+    var wpOutput;
+    var wpMonthJoin;
 
     var wp_title = document.getElementById('wps-feed');
     if (wp_title !== 'undefined' && wp_title !== null) {
         // console.log(data);
         if (data.status === 'ok') {
             for (var i = 0; i < data.items.length; ++i) {
-                 wpLink = data.items[0].link;
-                 wpTitle = data.items[0].title.toString().substr(0, 186);
-                 wpDate = data.items[0].pubDate.toString().substr(0, 17);
-                 wpMonthSplit = wpDate.split(" ");
+                wpLink = data.items[0].link;
+                wpTitle = data.items[0].title.toString().substr(0, 186);
+                wpDate = data.items[0].pubDate.toString().substr(0, 17);
+                wpMonthSplit = wpDate.split(" ");
             }
             for (var x = 0; x < wpMonthSplit.length; ++x) {
                 wpMonthCollection = wpMonthSplit[2];

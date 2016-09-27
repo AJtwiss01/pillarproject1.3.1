@@ -1,0 +1,35 @@
+{
+  "name": "Peachjar",
+  "version": "2",
+  "private": true,
+  "homepage": "http://Peachjar.com/",
+  "author": "Peachjar.",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "*",
+    "grunt-banner": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-csscomb": "*",
+    "grunt-jscs": "*",
+    "grunt-purifycss": "^0.1.1",
+    "grunt-uncss": "^0.6.1",
+    "load-grunt-tasks": "*",
+    "time-grunt": "*"
+  }
+}

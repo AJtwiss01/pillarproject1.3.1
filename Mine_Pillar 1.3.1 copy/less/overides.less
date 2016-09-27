@@ -1,0 +1,48 @@
+/*created by pj*/
+/* leave in this order */
+/* veriable set for pat */
+@import "pj-components/pj-basepaths";
+/* end */
+@import "pj-components/pj-font-face";
+@import "pj-components/pj-variables";
+@import "pj-components/pj-opacity";
+@import "pj-components/pj-fontwieght";
+@import "pj-components/pj-background-fill";
+@import "pj-components/pj-buttons";
+@import "pj-components/pj-text-styles";
+@import "pj-components/pj-nav";
+@import "pj-components/pj-footer";
+@import "pj-components/pj-grid-additions";
+/* specific page less files to overide theme for specific page*/
+@import "pj-pages/home/home";
+@import "pj-pages/policies/policies";
+@import "pj-pages/schools/schools";
+@import "pj-pages/program-providers/program-providers";
+/* end */
+
+@import "pj-components/pj-animations";
+@import "overidesV2.less";
+.video-play-icon:before {
+    border: none;
+    display: none;
+}
+.video-cover .video-play-icon {
+    text-align: center;
+    padding: 20px;
+    svg {
+        margin-left: 1px;
+    }
+}
+    // SCHOOL PAGE OVERDIDES
+    .feature {
+        margin-bottom: 0;
+        &.feature-3 {
+            margin-bottom: 0;
+            .feature__right p {
+                min-height: 1.875em;
+            }
+
+        }
+    }
+    
+/*created by pj*/

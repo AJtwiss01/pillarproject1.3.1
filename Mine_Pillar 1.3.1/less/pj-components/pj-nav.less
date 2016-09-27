@@ -1,4 +1,5 @@
 // NAVIGATION OVERIDES
+
 .nav-btn {
     line-height: 16px;
 }
@@ -52,25 +53,28 @@
 }
 
 @media (max-width: 990px) {
-    .nav-bar.nav--absolute,
-    .nav-bar.nav--fixed {
+
+     .nav-bar.nav--absolute, .nav-bar.nav--fixed {
         background-color: @inverse !important;
         border-bottom: none;
         transition: all .2s ease-in-out;
     }
+
     .mobile-menu-block {
         background-color: #f1f1f1;
         margin-right: -15px;
         margin-left: -15px;
         padding: 15px 20px;
+
         .menu {
             margin-bottom: 0;
         }
     }
 }
 
+
 .logo-svg {
-    display: inline-block !important;
+    display: inline-block !important;   
     ;
     width: 125px !important;
     max-height: 100% !important;
@@ -85,9 +89,9 @@
 .nav-mobile-toggle {
     font-size: 1.75em;
     padding: 0 .5em;
+
     i {
         margin-top: 22px;
         color: @mid-black;
     }
 }
-

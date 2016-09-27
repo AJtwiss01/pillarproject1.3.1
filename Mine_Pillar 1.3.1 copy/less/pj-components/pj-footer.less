@@ -1,0 +1,106 @@
+// FOOTER
+.footer-4 {
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width: 479px) {
+        padding: 2em 0 0 !important;
+    }
+    /* Small Devices, Tablets */
+    @media only screen and (max-width: 768px) {
+        padding: 3em 0 0 !important;
+        .mobile-footer-top {
+            margin-bottom: 20px;
+        }
+    }
+    .icon-box-small {
+        min-width: 20px;
+        display: inline-block;
+        float: left;
+        .fa-phone,
+        .fa-envelope-o {
+            line-height: 2.2em;
+        }
+    }
+    .address {
+        margin-bottom: 0;
+        address {
+            display: inline-block;
+            color: #343434;
+            font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+            font-size: 0.75em;
+            font-variant-ligatures: common-ligatures;
+            font-weight: 400;
+            line-height: 1.625em;
+            margin-bottom: 0;
+            a {
+                display: block;
+                opacity: .6;
+                transition: opacity .2s ease-in-out;
+                &.tel {
+                    margin-bottom: 3px;
+                }
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .company-info {
+        padding-bottom: 1px;
+        a {
+            transition: opacity .2s ease-in-out;
+            display: block;
+            width: 100%;
+            font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+            font-size: 0.75em;
+            opacity: .6;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    .get-help,
+    .sub-footer-links {
+        li {
+            color: #343434;
+            font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+            font-size: 0.625em;
+            font-variant-ligatures: common-ligatures;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin: 0;
+            text-transform: uppercase;
+            a {
+                opacity: .5;
+                transition: 0.2s linear;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .sub-footer-links {
+        li {
+            margin: 0 10px;
+        }
+    }
+    .get-help {
+        line-height: 3.2em;
+    }
+    .sub-footer-links {
+        ul {
+            margin: 0;
+            line-height: 1.625em !important;
+        }
+    }
+    .footer__navigation {
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    .footer__lower {
+        position: relative;
+        margin-top: 2.875em;
+        background: #1e1e1e;
+        padding: 1.625em 0;
+    }
+}
